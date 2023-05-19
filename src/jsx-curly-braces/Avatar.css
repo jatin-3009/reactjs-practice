@@ -1,0 +1,8 @@
+.avatarDiv {
+    margin: 10px;
+}
+
+.avatarImg {
+    border-radius: 50%;
+    height: 200px;
+}
