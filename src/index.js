@@ -1,17 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './importing-exporting-components/App';
 import reportWebVitals from './reportWebVitals';
+import TodoList from './writing-markup-jsx/TodoList';
+import Avatar from './jsx-curly-braces/Avatar';
+import Intern from './jsx-curly-braces/Intern';
+import Today from './jsx-curly-braces/Today';
+import List from './jsx-curly-braces/List';
+import AllInOne from './jsx-curly-braces/AllInOne';
+import Car from './class-based-components/Props';
+import Garage from './class-based-components/NestedComponents';
+import Button from './class-based-components/State';
+import Constructor from './class-based-components/lifecycle-methods/Constructor';
+import GetDerivedStateFromProps from './class-based-components/lifecycle-methods/GetDerivedStateFromProps';
+import ComponentDidMount from './class-based-components/lifecycle-methods/ComponentDidMount';
+import Counter from './simple-problems/Counter';
+import ParentCounterClass from './simple-problems/Counter2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <TodoList /> */}
+    {/* <Avatar />
+    <Intern />
+    <Today />
+    <List /> */}
+    {/* <AllInOne /> */}
+    {/* <Car speed={300} /> */}
+    {/* <Garage /> */}
+    {/* <Button /> */}
+    {/* <Constructor /> */}
+    {/* <GetDerivedStateFromProps level={40} /> */}
+    {/* <ComponentDidMount /> */}
+    {/* <Counter initialCount={0} /> */}
+    <ParentCounterClass initialCount={0} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
