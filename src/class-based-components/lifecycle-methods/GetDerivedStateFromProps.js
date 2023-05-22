@@ -25,7 +25,7 @@ export default class GetDerivedStateFromProps extends Component {
     render() {
         return (
             <>
-                <h2>Class Based Components - Lifecycle Methods - GetDerivedStateFromProps</h2>
+                <h2>Class Based Components - Lifecycle Method - static getDerivedStateFromProps(props, state)</h2>
                 <p>Level = {this.state.level}</p>
                 <p>Color = {this.state.color}</p>
                 <button type='button' onClick={this.showCurrentState}>Click me for State</button>

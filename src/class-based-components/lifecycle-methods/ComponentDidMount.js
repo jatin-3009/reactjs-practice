@@ -13,7 +13,7 @@ class ComponentDidMount extends Component {
     render() {
         return (
             <>
-                <h2>Component Did Mount - Class Based Component Life Cycle Method</h2>
+                <h2>Class Based Components - Lifecycle Method - componentDidMount()</h2>
                 <p>Name: {this.state.firstName + ' ' + this.state.lastName}</p>
                 <p>I am going to change the color from RED to BLUE in 3 seconds...</p>
                 <h3> {this.state.color} </h3>

@@ -11,7 +11,7 @@ class Constructor extends Component {
     render() {
         return(
             <>
-                <h2>Class Based Components - Lifecycle Methods - Constructor</h2>
+                <h2>Class Based Components - Lifecycle Method - constructor(props)</h2>
                 <p>{ this.state.color }</p>
             </>
         );

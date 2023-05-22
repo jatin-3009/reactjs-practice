@@ -17,6 +17,10 @@ import GetDerivedStateFromProps from './class-based-components/lifecycle-methods
 import ComponentDidMount from './class-based-components/lifecycle-methods/ComponentDidMount';
 import Counter from './simple-problems/Counter';
 import ParentCounterClass from './simple-problems/Counter2';
+import Range from './class-based-components/lifecycle-methods/ShouldComponentUpdate';
+import Snapshot from './class-based-components/lifecycle-methods/GetSnapshotBeforeUpdate';
+import UpdateCity from './class-based-components/lifecycle-methods/ComponentDidUpdate';
+import Parent from './class-based-components/lifecycle-methods/ComponentWillUnmount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +39,10 @@ root.render(
     {/* <GetDerivedStateFromProps level={40} /> */}
     {/* <ComponentDidMount /> */}
     {/* <Counter initialCount={0} /> */}
-    <ParentCounterClass initialCount={0} />
+    {/* <ParentCounterClass initialCount={0} /> */}
+    {/* <Range initialCount={0} /> */}
+    {/* <Snapshot /> */}
+    {/* <UpdateCity /> */}
+    <Parent />
   </React.StrictMode>
 );
