@@ -14,7 +14,7 @@ export default class Car extends Component {
             <>
                 <h2>This is an example of a Class based component.</h2>
                 <p>This is a { this.state.color } car!!</p>
-                <p>Its speed is  { this.state.speed } km per hour!</p>
+                <p>Its speed is { this.state.speed } km per hour!</p>
                 <button type='button' onClick={this.handleClick}>Click me</button>
             </>
         );

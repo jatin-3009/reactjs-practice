@@ -1,4 +1,4 @@
-import profilePicture from './../images/passport.jpg';
+import profilePicture from './../../images/passport.jpg';
 
 export function Profile() {
     return (

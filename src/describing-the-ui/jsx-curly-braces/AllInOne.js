@@ -1,5 +1,5 @@
 import './AllInOne.css'
-import profilePicture from './../images/passport.jpg';
+import profilePicture from './../../images/passport.jpg';
 
 const person = {
     name: "Jatin Ninawe",
